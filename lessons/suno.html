@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>שיעור Suno</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Varela+Round&family=Rubik:wght@400;500&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">דילוג לתוכן</a>
+<div class="wrap">
+  <header class="top"><div class="crumbs"><a href="../index.html">→ חזרה לאתר החוג</a></div><nav aria-label="הגדרות"><button class="size-btn" id="size-btn" type="button" aria-pressed="false" aria-label="הגדלת טקסט">א+ טקסט גדול</button></nav></header>
+<main id="main">
+
+  <section class="lesson-hero">
+    <span class="icon coral"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span>
+    <div>
+      <h1>יוצרים שיר עם Suno</h1>
+      <p>מכניסה לאתר ועד שיר שלם, ב-5 צעדים.</p>
+    </div>
+  </section>
+
+
+
+  <h2 class="sec" id="movie">צופים בסרטון</h2>
+  <div class="player">
+    <div class="caption"><span class="step-num" id="movie-num">1</span><span id="movie-caption"></span></div>
+    <div id="movie-host"></div>
+    <div class="controls">
+      <button class="btn" id="movie-play" type="button">נגן ▶</button>
+      <button class="btn ghost" id="movie-restart" type="button">מההתחלה</button>
+      <div class="progress" id="movie-progress"></div>
+    </div>
+  </div>
+
+  <h2 class="sec">שלב אחרי שלב</h2>
+  <p class="fig-note">צילומי מסך אמיתיים מאתר Suno. מה שמסומן באדום, עליו לוחצים.</p>
+
+  <section class="step" id="s1">
+    <div class="step-head"><span class="step-num">1</span><h3>נכנסים לאתר ולוחצים Log in</h3></div>
+    <p>פותחים את <a href="https://suno.com" target="_blank" rel="noopener">suno.com</a> ולוחצים על <span class="en">Log in</span> למעלה.</p>
+    <figure class="real" data-shot="home" data-marks="login:1" aria-label="דף הבית של Suno, הכפתור Log in מסומן"></figure>
+    <div class="note">טיפ: האתר באנגלית? לוחצים מקש ימני בעכבר ובוחרים <b>תרגם לעברית</b>.</div>
+  </section>
+
+  <section class="step" id="s2">
+    <div class="step-head"><span class="step-num">2</span><h3>מתחברים עם גוגל</h3></div>
+    <p>לוחצים <span class="en">Continue with Google</span> ובוחרים את החשבון.</p>
+    <figure class="real" data-shot="login" data-marks="google:2" aria-label="חלון ההתחברות, הכפתור Continue with Google מסומן"></figure>
+    <div class="note">מתחברים רק באישור של מבוגר.</div>
+  </section>
+
+  <section class="step" id="s3">
+    <div class="step-head"><span class="step-num">3</span><h3>לוחצים Advanced (מתקדם)</h3></div>
+    <p>לוחצים <span class="en">Create</span> בתפריט, ואז <span class="en">Advanced</span> למעלה.</p>
+    <figure class="real" data-shot="signed-simple" data-marks="createNav:3,advanced:4" aria-label="מסך Create לאחר התחברות, הכפתור Advanced מסומן"></figure>
+  </section>
+
+  <section class="step" id="s4">
+    <div class="step-head"><span class="step-num">4</span><h3>כותבים את המילים</h3></div>
+    <p>בתיבת <span class="en">Lyrics</span> כותבים את המילים של השיר. אפשר בעברית!</p>
+    <figure class="real" data-shot="signed-lyrics" data-marks="lyricsBox:5" aria-label="תיבת Lyrics עם מילים לדוגמה מסומנת"></figure>
+  </section>
+
+  <section class="step" id="s5">
+    <div class="step-head"><span class="step-num">5</span><h3>בוחרים סגנון ולוחצים Create</h3></div>
+    <p>בתיבת <span class="en">Styles</span> כותבים סגנון באנגלית, למשל <span class="en">happy pop, kids choir</span>. אחר כך לוחצים <span class="en">Create</span>.</p>
+    <figure class="real" data-shot="signed-style" data-marks="stylesBox:6,createBtn:7" aria-label="תיבת Styles וכפתור Create מסומנים"></figure>
+    <div class="note">מופיעים שני שירים. לוחצים ▶ ושומעים!</div>
+    <figure class="real" data-shot="signed-results" data-marks="playSong:8,moreSong:9" aria-label="שני השירים שנוצרו, כפתור הניגון ותפריט האפשרויות מסומנים"></figure>
+  </section>
+
+  <h2 class="sec" id="song">השיר שיצרנו</h2>
+  <div class="card product" style="margin-top:12px">
+    <div class="product-head"><span class="icon sun"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg></span><h3>בננה בנוני — 0:38</h3></div>
+    <iframe class="suno-player" title="נגן השיר בננה בנוני" src="https://suno.com/embed/831ac23e-e7fe-4f71-81f1-597a4ba50d98" loading="lazy" allow="autoplay; encrypted-media; fullscreen" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <a href="../index.html#products-shelf">לכל השירים של החוג ←</a>
+  </div>
+
+</main>
+  <footer class="footer"><a href="../index.html">→ חזרה לאתר החוג</a></footer>
+</div>
+<script src="../assets/a11y.js"></script>
+<script src="../assets/shots.js"></script>
+</body>
+</html>
